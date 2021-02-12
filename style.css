@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+  background-color: white;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 2px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+header h2 {
+  text-align: center;
+}
+
+.Spel {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.minirutor {
+  display: grid;
+  grid-row: 2;
+  grid-column: 1;
+  padding: 20px;
+}
+
+.minirutor h4 {
+  text-align: center;
+}
+
+.minirutor img {
+  width: 250px;
+  height: 300px;
+}
+
+.minirutor a:hover {
+  background-color: lime;
+}
