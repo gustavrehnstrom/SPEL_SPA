@@ -42,8 +42,15 @@ header h2 {
 .minirutor img {
   width: 250px;
   height: 300px;
+  opacity: 1;
 }
 
-.minirutor a:hover {
-  background-color: lime;
+.overlay {
+  opacity: 1;
+  transition: 0.5s ease;
+  background-color: gray;
+}
+
+.minirutor:hover .overlay {
+  opacity: 0.3;
 }
