@@ -6,19 +6,20 @@
     <title>OlikaSpel</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script defer src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
     <header><h2>Spel som jag testat!</h2></header>
     <main>
-        <div class = "Spel">
+        <div class="Spel">
             <div class ="minirutor">
                 <h4>Counter-Strike Global Offensive</h4>
-                <img src="csgo.jpg" alt="bild på counter-strike" class="overlay">
+                <img src="csgo.jpg" alt="bild på counter-strike" class="overlay" onclick="showCSGO('csgo')">
             </div>
             <div class="minirutor">
                 <h4>Call of Duty: Black Ops II</h4>
-                <img src="blackops2.png" alt="bild på black ops 2" class="overlay">
+                <img src="blackops2.png" alt="bild på black ops 2" class="overlay" onclick="showBO2('bo2')">
             </div>
             <div class="minirutor">
                 <h4>Call of Duty: Black Ops III</h4>
@@ -26,14 +27,28 @@
             </div>
             <div class="minirutor">
                 <h4>Star Wars: Battlefront II</h4>
-                <a href="https://www.youtube.com/">
                     <img srcset="battlefront2.jpg" alt="bild på battlefront 2" class="overlay"/>
-                  </a>
-                </div>    
+                </div>
+                <div class="minirutor">
+                    <h4>Minecraft</h4>
+                    <img src="Minecraft_cover.png" alt="bild på minecraft" class="overlay">
+                </div>
+                <div class="minirutor">
+                    <h4>Grand Theft Auto V</h4>
+                    <img src="gta.jpg" alt="bild på gta5" class="overlay">
+                </div>
+        </div>
+
+        <div id="csgo" class="hidden">
+            <h2 onclick="goBackCSGO('csgo')">Counter-Strike Global Offensive </h2 >
+        </div>
+
+        <div id="bo2" class="hidden">
+            <h2 onclick="goBackBO2('bo2')">Call of Duty: Black Ops II</h2>
         </div>
 </main>
     <footer>
-        <h2>Gustav Olof Rehnström</h2>  
+        <h2>Gustav Olof Rehnström</h2>
     </footer>
 </body>
 </html>

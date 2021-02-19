@@ -17,6 +17,10 @@ footer {
   padding: 10px;
 }
 
+footer h2 {
+  text-align: center;
+}
+
 header h2 {
   text-align: center;
 }
@@ -48,9 +52,13 @@ header h2 {
 .overlay {
   opacity: 1;
   transition: 0.5s ease;
-  background-color: gray;
+  color: darkgray;
 }
 
 .minirutor:hover .overlay {
   opacity: 0.3;
+}
+
+.hidden {
+  display: none;
 }
