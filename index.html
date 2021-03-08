@@ -23,28 +23,44 @@
             </div>
             <div class="minirutor">
                 <h4>Call of Duty: Black Ops III</h4>
-                <img src="blackops3.jpg" alt="bild på black ops 3" class="overlay">
+                <img src="blackops3.jpg" alt="bild på black ops 3" class="overlay" onclick="showBO3('bo3')">
             </div>
             <div class="minirutor">
                 <h4>Star Wars: Battlefront II</h4>
-                    <img srcset="battlefront2.jpg" alt="bild på battlefront 2" class="overlay"/>
+                    <img srcset="battlefront2.jpg" alt="bild på battlefront 2" class="overlay" onclick="showBF2('bf2')"/>
                 </div>
                 <div class="minirutor">
                     <h4>Minecraft</h4>
-                    <img src="Minecraft_cover.png" alt="bild på minecraft" class="overlay">
+                    <img src="Minecraft_cover.png" alt="bild på minecraft" class="overlay" onclick="showMINE('mine')">
                 </div>
                 <div class="minirutor">
                     <h4>Grand Theft Auto V</h4>
-                    <img src="gta.jpg" alt="bild på gta5" class="overlay">
+                    <img src="gta.jpg" alt="bild på gta5" class="overlay" onclick="showGTA('gta')">
                 </div>
         </div>
 
         <div id="csgo" class="hidden">
-            <h2 onclick="goBackCSGO('csgo')">Counter-Strike Global Offensive </h2 >
+            <h2 onclick="goBackCSGO('csgo')">Tillbaka till startsidan</h2 >
         </div>
 
         <div id="bo2" class="hidden">
-            <h2 onclick="goBackBO2('bo2')">Call of Duty: Black Ops II</h2>
+            <h2 onclick="goBackBO2('bo2')">Tillbaka till startsidan</h2>
+        </div>
+
+        <div id="bo3" class="hidden">
+            <h2 onclick="goBackBO3('bo3')">Tillbaka till startsidan</h2>
+        </div>
+
+        <div id="bf2" class="hidden">
+            <h2 onclick="goBackBF2('bf2')">Tillbaka till startsidan</h2>
+        </div>
+
+        <div id="mine" class="hidden">
+            <h2 onclick="goBackMINE('mine')">Tillbaka till startsidan</h2>
+        </div>
+
+        <div id="gta" class="hidden">
+            <h2 onclick="goBackGTA('gta')">Tillbaka till startsidan</h2>
         </div>
 </main>
     <footer>
