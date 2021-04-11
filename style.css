@@ -62,3 +62,29 @@ header h2 {
 .hidden {
   display: none;
 }
+
+.spel {
+  display: grid;
+  grid-column: 1r;
+  grid-row: 3r;
+  padding: 10px;
+}
+
+.spel img {
+  width: 400px;
+  height: 250px;
+}
+
+.spel a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.spel a:visited {
+  color: black;
+}
+
+.spelcontent {
+  display: flex;
+  justify-content: center;
+}
