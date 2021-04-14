@@ -1,3 +1,12 @@
+const games = document.querySelectorAll(".Spel")
+
+function showGame(gameID) {
+    games.forEach((game) => {
+        game.classList.add("hidden");
+    })
+    document.querySelector("#" + game).classList.remove("hidden");
+}
+
 function showCSGO (game) {
     document.querySelector(".Spel").classList.toggle("hidden");
     document.querySelector("#csgo").classList.toggle("hidden");
